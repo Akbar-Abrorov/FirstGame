@@ -5,7 +5,7 @@ def load_users():
     with open('data/users.json', 'r') as file:
         return json.load(file)
 
-
+#SAVE_USER
 def save_users(users):
     with open('data/users.json', 'w') as file:
         json.dump(users, file, indent=4)
