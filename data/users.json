@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Akbar",
+        "balance": 500,
+        "items": {
+            "apple": 1,
+            "sprite": 2
+        }
+    }
+]
