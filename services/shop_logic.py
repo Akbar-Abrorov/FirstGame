@@ -1,4 +1,5 @@
 import json
+from cfg.logger import logger
 
 
 def load_users():
@@ -13,7 +14,9 @@ def save_users(users):
 
 def load_items():
     with open('data/items.json', 'r') as file:
-        return json.load(file)
+        data = json.load(file)
+        logger.info(data)
+        return data
 
 
 def buy_item(user_name: int, item_name: int):
