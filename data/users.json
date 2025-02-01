@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "Akbar",
-        "balance": 500,
+        "balance": 300,
         "items": {
-            "apple": 1,
+            "apple": 2,
             "sprite": 2
         }
     }

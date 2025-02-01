@@ -1,18 +1,19 @@
-from logtail import LogtailHandler
-import logging, sys
+import logging
+import sys
+from cfg.tg_logger import TelegramLogHandler
 
-token = "xJUgQFKLFgasycR27PPF6uik"
+logger = logging.getLogger("ULA777")
+logger.setLevel(logging.DEBUG)
 
-logger = logging.getLogger()
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
 stream_handler = logging.StreamHandler(sys.stdout)
-file_handler = logging.FileHandler('app.log')
 stream_handler.setFormatter(formatter)
+file_handler = logging.FileHandler('app.log')
 file_handler.setFormatter(formatter)
+telegram_handler = TelegramLogHandler()
+telegram_handler.setFormatter(formatter)
 
-better_stack_handler = LogtailHandler(source_token=token)
-
-logger.handlers = [stream_handler, file_handler,better_stack_handler]
-
-logger.setLevel(logging.INFO)
+logger.addHandler(stream_handler)
+logger.addHandler(file_handler)
+logger.addHandler(telegram_handler)

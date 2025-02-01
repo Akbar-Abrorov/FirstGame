@@ -1,0 +1,42 @@
+2025-01-19 15:42:24,998 - INFO - APP STARTED
+2025-01-19 16:20:42,391 - INFO - APP STARTED
+2025-01-19 16:20:45,551 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:20:46,860 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:20:48,769 - INFO - APP STARTED
+2025-01-19 16:20:49,522 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:21:19,506 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:21:21,104 - INFO - APP STARTED
+2025-01-19 16:21:21,675 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:21:29,153 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:21:31,110 - INFO - APP STARTED
+2025-01-19 16:21:31,710 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 16:21:58,233 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 18:14:17,084 - INFO - APP STARTED
+2025-01-19 18:14:18,464 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 18:16:37,903 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 18:16:40,590 - INFO - APP STARTED
+2025-01-19 18:16:41,083 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 18:20:57,005 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-01-19 18:20:59,491 - INFO - APP STARTED
+2025-01-19 18:21:01,005 - INFO - Startup event: Telegram notification sent.
+2025-01-19 18:21:09,795 - INFO - Shutdown event: Telegram notification sent.
+2025-01-20 09:22:02,404 - INFO - APP STARTED
+2025-01-20 09:22:05,171 - INFO - Startup event: Telegram notification sent.
+2025-01-20 09:22:31,700 - INFO - Shutdown event: Telegram notification sent.
+2025-01-25 15:26:31,778 - INFO - APP STARTED
+2025-01-25 15:26:32,954 - INFO - Startup event: Telegram notification sent.
+2025-01-25 15:28:17,093 - INFO - Shutdown event: Telegram notification sent.
+2025-01-25 17:04:07,643 - INFO - APP STARTED
+2025-01-25 17:04:08,339 - INFO - Startup event: Telegram notification sent.
+2025-01-25 17:09:54,336 - INFO - Shutdown event: Telegram notification sent.
+2025-01-25 17:09:56,685 - INFO - APP STARTED
+2025-01-25 17:09:57,398 - INFO - Startup event: Telegram notification sent.
+2025-01-25 17:12:34,667 - INFO - APP STARTED
+2025-01-25 17:12:35,296 - ERROR - Failed to send startup message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: group chat was upgraded to a supergroup chat","parameters":{"migrate_to_chat_id":-1002289192692}}
+2025-01-25 17:12:52,059 - ERROR - Failed to send shutdown message: Failed to send message: {"ok":false,"error_code":400,"description":"Bad Request: group chat was upgraded to a supergroup chat","parameters":{"migrate_to_chat_id":-1002289192692}}
+2025-01-25 17:12:54,259 - INFO - APP STARTED
+2025-01-25 17:12:55,480 - INFO - Startup event: Telegram notification sent.
+2025-01-25 18:20:39,338 - INFO - Shutdown event: Telegram notification sent.
+2025-01-27 10:00:26,757 - INFO - APP STARTED
+2025-01-27 10:00:27,705 - INFO - Startup event: Telegram notification sent.
+2025-01-27 10:01:09,115 - INFO - Shutdown event: Telegram notification sent.

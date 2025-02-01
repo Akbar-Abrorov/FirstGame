@@ -16,6 +16,8 @@ def load_items():
     with open('data/items.json', 'r') as file:
         data = json.load(file)
         logger.info(data)
+        logger.info("This is an info message")
+        logger.error("This is an error message")
         return data
 
 
